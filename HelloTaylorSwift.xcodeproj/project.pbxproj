@@ -14,6 +14,7 @@
 		42DA67B5193E233500FB8100 /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA67B3193E233500FB8100 /* HomepageViewController.swift */; };
 		42DA67B6193E233500FB8100 /* WikipediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA67B4193E233500FB8100 /* WikipediaViewController.swift */; };
 		42DA67B8193E249300FB8100 /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA67B7193E249300FB8100 /* YouTubeViewController.swift */; };
+		42DA67BA193E513A00FB8100 /* HairExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DA67B9193E513A00FB8100 /* HairExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		42DA67B3193E233500FB8100 /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		42DA67B4193E233500FB8100 /* WikipediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikipediaViewController.swift; sourceTree = "<group>"; };
 		42DA67B7193E249300FB8100 /* YouTubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		42DA67B9193E513A00FB8100 /* HairExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HairExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				42DA67B7193E249300FB8100 /* YouTubeViewController.swift */,
 				42DA679B193E151D00FB8100 /* Images.xcassets */,
 				42DA6792193E151D00FB8100 /* Supporting Files */,
+				42DA67B9193E513A00FB8100 /* HairExtension.swift */,
 			);
 			path = HelloTaylorSwift;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				42DA67B8193E249300FB8100 /* YouTubeViewController.swift in Sources */,
 				42DA67B6193E233500FB8100 /* WikipediaViewController.swift in Sources */,
 				42DA67B5193E233500FB8100 /* HomepageViewController.swift in Sources */,
+				42DA67BA193E513A00FB8100 /* HairExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +402,7 @@
 				42DA67AD193E151D00FB8100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42DA67AE193E151D00FB8100 /* Build configuration list for PBXNativeTarget "HelloTaylorSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +411,7 @@
 				42DA67B0193E151D00FB8100 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

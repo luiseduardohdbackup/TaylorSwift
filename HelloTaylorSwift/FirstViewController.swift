@@ -20,7 +20,7 @@ class FirstViewController: UIViewController {
 			forControlEvents: UIControlEvents.TouchUpInside
 		)
 		button0.setTitle("Homepage", forState: UIControlState.Normal)
-		button0.backgroundColor = UIColor(red:1.0, green:0.25, blue:0.25, alpha:1.0)
+		button0.backgroundColor = UIColor.rgb(240, 20, 20)
 		self.view.addSubview(button0)
 
 	
@@ -31,7 +31,7 @@ class FirstViewController: UIViewController {
 			forControlEvents: UIControlEvents.TouchUpInside
 		)
 		button1.setTitle("Wikipedia", forState: UIControlState.Normal)
-		button1.backgroundColor = UIColor(red:0.25, green:1.0, blue:0.25, alpha:1.0)
+		button1.backgroundColor = UIColor.rgb(20, 240, 20)
 		self.view.addSubview(button1)
 
 	
@@ -42,7 +42,7 @@ class FirstViewController: UIViewController {
 			forControlEvents: UIControlEvents.TouchUpInside
 		)
 		button2.setTitle("YouTube", forState: UIControlState.Normal)
-		button2.backgroundColor = UIColor(red:0.25, green:0.25, blue:1.0, alpha:1.0)
+		button2.backgroundColor = UIColor.rgb(20, 20, 240)
 		self.view.addSubview(button2)
 	}
 
