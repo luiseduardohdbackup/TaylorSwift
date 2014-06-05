@@ -14,33 +14,21 @@ class FirstViewController: UIViewController {
 		self.navigationItem.title = "Taylor Swift"
 		
 		// the homepage
-		button0.addTarget(
-			self,
-			action: Selector("button0Action:"),
-			forControlEvents: UIControlEvents.TouchUpInside
-		)
+		button0.addTarget(self, action: "button0Action", forControlEvents: UIControlEvents.TouchUpInside)
 		button0.setTitle("Homepage", forState: UIControlState.Normal)
 		button0.backgroundColor = UIColor.rgb(240, 20, 20)
 		self.view.addSubview(button0)
 
 	
 		// the wikipedia page
-		button1.addTarget(
-			self,
-			action: Selector("button1Action:"),
-			forControlEvents: UIControlEvents.TouchUpInside
-		)
+		button1.addTarget(self, action: "button1Action", forControlEvents: UIControlEvents.TouchUpInside)
 		button1.setTitle("Wikipedia", forState: UIControlState.Normal)
 		button1.backgroundColor = UIColor.rgb(20, 240, 20)
 		self.view.addSubview(button1)
 
 	
 		// youtube
-		button2.addTarget(
-			self,
-			action: Selector("button2Action:"),
-			forControlEvents: UIControlEvents.TouchUpInside
-		)
+		button2.addTarget(self, action: "button2Action", forControlEvents: UIControlEvents.TouchUpInside)
 		button2.setTitle("YouTube", forState: UIControlState.Normal)
 		button2.backgroundColor = UIColor.rgb(20, 20, 240)
 		self.view.addSubview(button2)
@@ -68,17 +56,17 @@ class FirstViewController: UIViewController {
 		
 	}
 	
-	func button0Action(sender: UIButton!) {
+	func button0Action() {
 		let vc = HomepageViewController()
 		self.navigationController.pushViewController(vc, animated:true)
 	}
 	
-	func button1Action(sender: UIButton!) {
+	func button1Action() {
 		let vc = WikipediaViewController()
 		self.navigationController.pushViewController(vc, animated:true)
 	}
 	
-	func button2Action(sender: UIButton!) {
+	func button2Action() {
 		let vc = YouTubeViewController()
 		self.navigationController.pushViewController(vc, animated:true)
 	}
