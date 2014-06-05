@@ -16,7 +16,7 @@ class FirstViewController: UIViewController {
 		// the homepage
 		button0.addTarget(
 			self,
-			action: Selector.convertFromStringLiteral("button0Action:"),
+			action: Selector("button0Action:"),
 			forControlEvents: UIControlEvents.TouchUpInside
 		)
 		button0.setTitle("Homepage", forState: UIControlState.Normal)
@@ -27,7 +27,7 @@ class FirstViewController: UIViewController {
 		// the wikipedia page
 		button1.addTarget(
 			self,
-			action: Selector.convertFromStringLiteral("button1Action:"),
+			action: Selector("button1Action:"),
 			forControlEvents: UIControlEvents.TouchUpInside
 		)
 		button1.setTitle("Wikipedia", forState: UIControlState.Normal)
@@ -38,7 +38,7 @@ class FirstViewController: UIViewController {
 		// youtube
 		button2.addTarget(
 			self,
-			action: Selector.convertFromStringLiteral("button2Action:"),
+			action: Selector("button2Action:"),
 			forControlEvents: UIControlEvents.TouchUpInside
 		)
 		button2.setTitle("YouTube", forState: UIControlState.Normal)
