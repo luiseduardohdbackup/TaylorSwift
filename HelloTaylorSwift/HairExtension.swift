@@ -17,4 +17,15 @@ extension UIColor {
 			alpha: CGFloat(alpha) / 255.0
 		)
 	}
+
+	// usage:
+	// myButton.backgroundColor = UIColor.hex(0xaabbcc)
+	// or
+	// myButton.backgroundColor = UIColor.hex(0xaabbcc, 0.4)
+	class func hex(hex: Int, _ alpha: Double = 1.0) -> UIColor {
+		let red   = Double((hex & 0xFF0000) >> 16) / 255.0
+		let green = Double((hex & 0xFF00) >> 8) / 255.0
+		let blue  = Double((hex & 0xFF)) / 255.0
+		return UIColor(red: CGFloat(red), green: CGFloat(green), blue: CGFloat(blue), alpha: CGFloat(alpha))
+	}
 }

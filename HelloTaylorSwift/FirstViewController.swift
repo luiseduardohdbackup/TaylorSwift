@@ -23,14 +23,14 @@ class FirstViewController: UIViewController {
 		// the wikipedia page
 		button1.addTarget(self, action: "button1Action", forControlEvents: UIControlEvents.TouchUpInside)
 		button1.setTitle("Wikipedia", forState: UIControlState.Normal)
-		button1.backgroundColor = UIColor.rgb(20, 240, 20)
+		button1.backgroundColor = UIColor.rgba(20, 240, 20, 230)
 		self.view.addSubview(button1)
 
 	
 		// youtube
 		button2.addTarget(self, action: "button2Action", forControlEvents: UIControlEvents.TouchUpInside)
 		button2.setTitle("YouTube", forState: UIControlState.Normal)
-		button2.backgroundColor = UIColor.rgb(20, 20, 240)
+		button2.backgroundColor = UIColor.hex(0x1010ff, 0.2)
 		self.view.addSubview(button2)
 	}
 
